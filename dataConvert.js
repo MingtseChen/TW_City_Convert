@@ -3,9 +3,7 @@ var jsonfile = require('jsonfile');
 var file = 'newData.json';
 
 var obj = JSON.parse(fs.readFileSync('AllData.json', 'utf8'));
-// var jTable = {
-// 	data: []
-// }
+
 var json = [];
 
 for (var i = 0; i < obj.length; ++i) {
