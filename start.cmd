@@ -1,5 +1,5 @@
 @echo on
-node data.js
+node dataConvert.js
 
 
 pause
